@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Roboto+Slab&display=swap');
+
+body{
+  display: block;
+  margin: 0;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+/* 
+  Head Styling
+*/
+
+#headContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+  line-height: 100px;
+  height: min-content;
+  max-height: fit-content;
+  color: white;
+  background-color: black;
+  overflow: hidden;
+}
+
+#headImageContainer > img{
+  max-height: 50rem;
+  vertical-align: middle;
+  border-radius: 15em;
+}
+
+.mainHeadLetter {
+  font-size: 10em;
+  margin: auto 5rem;
+}
+
+/* 
+  Bio
+*/
+
+#Bio{
+  margin: 0 auto;
+  width: 25rem;
+  text-align: center;
+}
+
+/* 
+  Skills section
+*/
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
